@@ -237,3 +237,29 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+
+.technologies{
+    padding-top: 30px;
+}
+
+.technologies>i{
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.technologies>i:hover,
+.technologies>i:focus,
+.technologies>i:active{
+    color: rgb(51, 122, 183);
+
+}
+
+.profile-section{
+    margin-top: 30px;
+}
+
+.profile-section>h4{
+    margin-bottom: 10px;
+}

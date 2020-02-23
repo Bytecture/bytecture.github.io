@@ -11,15 +11,19 @@
 
     <title>Bytecture Solutions</title>
 
+
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
+
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/all.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,16 +42,19 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Bytecture Solutions</a>
+                <a href="#top" onclick=$("#menu-close").click();>Bytecture Solutions</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#profile" onclick=$("#menu-close").click();>Profile</a>
             </li>
             <!--<li>
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
@@ -55,8 +62,8 @@
             <!--<li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>-->
-             <li>
-                <a href="#footer" onclick = $("#menu-close").click(); >Contact</a>
+            <li>
+                <a href="#footer" onclick=$("#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -73,14 +80,128 @@
     </header>
 
     <!-- About -->
+    <!-- <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Move your project to the next level!</h2>
+                    <p class="lead">Experienced software developer, leader and architect. <br />Various domains such as
+                        retail, healthcare and data analytics. <br />Professional and customer centric.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
     <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Move your project to the next level!</h2>
-                    <p class="lead">Experienced software developer, leader and architect. <br/>Various domains such as retail, healthcare and data analytics.  <br/>Professional and customer centric.</p>
+                    <p class="lead">Experienced software developer, leader and architect. <br />Various domains such as
+                        retail, healthcare and data analytics. <br />Professional and customer centric.</p>
                 </div>
             </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                        id="learn-more" aria-expanded="false" aria-controls="collapseExample">
+                        Learn More..
+                    </button>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+
+                        <div class="col-lg-12 text-center profile-section ">
+                            <h4>Education</h4>
+                            <p class="profile">Computer Engineering (Bachelors)</p>
+                            <h4>Experience</h4>
+                            <p class="profile">15 years</p>
+                            <h4>Discipline</h4>
+                            <p class="profile">Architecture, Software Strategy, Development</p>
+                            <h4>Platforms</h4>
+                            <p class="profile">Web, Azure, AWS, Mobile, Windows </p>
+                            <h4>Languages and Frameworks</h4>
+                            <p class="profile">.Net, C#, Python, Javascript, Typescript, Angular, React, React
+                                Mobile, Vue, Cordova,
+                                Ionic</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+
+                                <p class="technologies">
+                                    <i class="fab fa-microsoft"></i>
+                                    <i class="fab fa-aws"></i>
+                                    <i class="fab fa-node-js"></i>
+                                    <i class="fab fa-angular"></i>
+                                    <i class="fab fa-react"></i>
+                                    <i class="fab fa-vuejs"></i>
+                                    <i class="fab fa-python"></i>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="profile-bio">
+                            <!-- <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 id="information">Education</h3>
+                                        <p class='profile'> Computer Engineering (Bachelors)
+                                        </p>
+                                        <h2 id="information">Experience</h2>
+                                        <p class='profile'> 15 years
+                                        </p>
+                                        <p class='profile'>Software Architect (current)</p>
+                                        <p class='profile'>Software Lead (2014 - 2018)</p>
+                                        <p class='profile'>Director of Development (2011 - 2014)</p>
+                                        <p class='profile'>Sr. Engineer (2004 - 2011)</p>
+                                        <h2 class="snippet-sub-title">Technologies</h2>
+                                        <p class='profile'>Has delivered projects on the Microsoft and open source platform
+                                        </p>
+                                        <p class='profile'>Proven capability to delivery for cloud technologies such as
+                                            Azure
+                                            and AWS</p>
+                                        <p class='profile'>Architecture knowhow to build complex systems with redundancy,
+                                            fail-over capability,
+                                            load balancing and scale. </p>
+    
+                                        <h2 class="snippet-sub-title">Languages and Frameworks</h2>
+                                        <p class='profile'>.Net, C#, Python, Javascript, Typescript, Angular, React, React
+                                            Mobile, Vue, Cordova,
+                                            Ionic </p>
+    
+    
+                                    </div>
+                                     <div class="col-md-12">
+                                        <div itemprop="aggregateRating" itemscope=""
+                                            itemtype="http://schema.org/AggregateRating"> Rated <span
+                                                itemprop="ratingValue">5</span>/5
+                                            based on <span itemprop="reviewCount">10</span> reviews</div>
+                                    </div>
+                                </div> -->
+
+                            <!-- <div class="row">
+                                    <div class="col-lg-12 text-center">
+    
+                                        <p class="technologies">
+                                            <i class="fab fa-microsoft"></i>
+                                            <i class="fab fa-aws"></i>
+                                            <i class="fab fa-node-js"></i>
+                                            <i class="fab fa-angular"></i>
+                                            <i class="fab fa-react"></i>
+                                            <i class="fab fa-vuejs"></i>
+                                            <i class="fab fa-python"></i>
+                                        </p>
+                                    </div>
+                                </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -96,23 +217,23 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Cloud Solutions</strong>
                                 </h4>
                                 <p>Azure, Amazon, self-hosted, PaaS and SaaS Solutions
                                 </p>
-                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
+
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Software Development</strong>
                                 </h4>
@@ -123,9 +244,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Prototyping</strong>
                                 </h4>
@@ -136,13 +257,13 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Consulting</strong>
                                 </h4>
-                                <p>Over 12 years of experience in the software industry</p>
+                                <p>15 years of experience in the software industry</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
@@ -157,18 +278,18 @@
     </section>
 
     <!-- Callout -->
-    <!--<aside class="callout">
+    <!-- <aside class="callout">
         <div class="text-vertical-center">
             <h1>Customer and delivery centric</h1>
         </div>
-    </aside>-->
+    </aside> -->
 
     <!-- Portfolio -->
-    <!--<section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <h2>Credentials</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
@@ -200,15 +321,15 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
-        
+
             </div>
-        
+
         </div>
-        
-    </section>-->
+
+    </section> -->
 
     <!-- Call to Action -->
     <!--<aside class="call-to-action bg-primary">
@@ -243,13 +364,15 @@
                     <p>Alpharetta/Atlanta, GA 30004</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (678) 772-8005</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:contact@bytecture.com">contact@bytecture.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a
+                                href="mailto:contact@bytecture.com">contact@bytecture.com</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.linkedin.com/company/bytecture-solutions"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/company/bytecture-solutions"><i
+                                    class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                         <!--<li>
                             <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
@@ -257,7 +380,7 @@
                         <!--<li>
                             <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>-->
-                       
+
                     </ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Bytecture Solutions LLC</p>
@@ -275,35 +398,59 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
 
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
 
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
                 }
             }
+        };
+
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
         });
-    });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+
+            var isExpand = getUrlParameter('expand');
+            if (isExpand) {
+                $('#collapseExample').collapse('show');
+            }
+        });
+
     </script>
+
+    <script src="https://use.fontawesome.com/a4798ed1d5.js"></script>
 
 </body>
 
